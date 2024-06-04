@@ -23,22 +23,33 @@ body {
 h1 {
     margin-bottom: 20px;
 }
-
+form {
+    margin-bottom: 20px;
+  }
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  button {
+    padding: 10px 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
 #search1 {
     width: 80%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-}
-
-#search2 {
-    padding: 10px 20px;
-    border: none;
-    background-color: #007BFF;
-    color: white;
-    border-radius: 4px;
-    cursor: pointer;
 }
 
 #search2:hover {
@@ -75,3 +86,21 @@ h1 {
     margin: 0;
     color: #555;
 }
+
+.detalles {
+    text-align: left;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: none;
+  }
+  
+  .detalles img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 4px;
+  }
+  
+  

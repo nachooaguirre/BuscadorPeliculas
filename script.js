@@ -1,5 +1,5 @@
-document.getElementById('search-button').addEventListener('click', function() {
-    const searchInput = document.getElementById('search-input').value;
+document.getElementById('search2').addEventListener('click', function() {
+    const searchInput = document.getElementById('search1').value;
     if (searchInput) {
         fetchMovies(searchInput);
     }
@@ -22,7 +22,7 @@ async function fetchMovies(query) {
 }
 
 function displayMovies(movies) {
-    const moviesContainer = document.getElementById('movies-container');
+    const moviesContainer = document.getElementById('peliculas');
     moviesContainer.innerHTML = '';
     movies.forEach(movie => {
         const movieElement = document.createElement('div');

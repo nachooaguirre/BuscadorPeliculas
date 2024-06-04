@@ -5,7 +5,7 @@ body {
     padding: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
+   
     height: 100vh;
 }
 
@@ -17,13 +17,14 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 600px;
+    height: min-content
 }
 
 h1 {
     margin-bottom: 20px;
 }
 
-#search-input {
+#search1 {
     width: 80%;
     padding: 10px;
     margin-bottom: 10px;
@@ -31,7 +32,7 @@ h1 {
     border-radius: 4px;
 }
 
-#search-button {
+#search2 {
     padding: 10px 20px;
     border: none;
     background-color: #007BFF;
@@ -40,11 +41,11 @@ h1 {
     cursor: pointer;
 }
 
-#search-button:hover {
+#search2:hover {
     background-color: #0056b3;
 }
 
-#movies-container {
+#peliculas {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
